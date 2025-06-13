@@ -50,6 +50,55 @@ body {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
+.skill-tag { /* similar a tech-tag */
+    background-color: #03dac6;
+    color: #121212;
+    font-weight: bold;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    margin: 0.25rem;
+    display: inline-block;
+}
+
+/* src/App.css */
+
+.chat-launcher {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
+
+.chatbot-window {
+  /* ... tus estilos anteriores ... */
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transform: translateY(20px);
+  opacity: 0;
+  pointer-events: none; /* Evita interacción cuando está cerrado */
+}
+
+.chatbot-window.open {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto; /* Permite interacción cuando está abierto */
+}
+
+/* Para mejorar la respuesta del bot que puede tener saltos de línea */
+.message.bot p {
+  white-space: pre-wrap; /* Respeta los saltos de línea y espacios */
+}
+
 .messages-area { flex-grow: 1; padding: 1rem; overflow-y: auto; }
 
 .message { margin-bottom: 1rem; }

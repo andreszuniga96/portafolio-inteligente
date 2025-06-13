@@ -1,7 +1,7 @@
 // src/services/api.js
 import axios from 'axios';
 
-// La URL base de nuestra API de FastAPI
+// La URL base de nuestra API de FastAPI para desarrollo
 const apiClient = axios.create({
     baseURL: 'https://portafolio-api-8bfm.onrender.com',
     headers: {
@@ -9,32 +9,39 @@ const apiClient = axios.create({
     }
 });
 
-// Función para obtener los datos del perfil
+
 export const getProfile = () => {
     return apiClient.get('/profile');
 };
 
-// Función para obtener la experiencia laboral
 export const getExperience = () => {
     return apiClient.get('/experience');
 };
 
-// Función para obtener la educación
 export const getEducation = () => {
     return apiClient.get('/education');
 };
 
-// Función para obtener las habilidades
 export const getSkills = () => {
     return apiClient.get('/skills');
 };
 
-// Función para obtener las certificaciones
-export const getCertifications = () => {
-    return apiClient.get('/certifications');
+// ESTA ES LA FUNCIÓN QUE PROBABLEMENTE FALTABA O TENÍA UN ERROR
+export const getAchievements = () => {
+    return apiClient.get('/achievements');
 };
 
-// Función para hacer una pregunta al chatbot
+// ESTA TAMBIÉN PODRÍA HABER FALTADO
+export const getCourses = () => {
+    return apiClient.get('/courses');
+};
+
 export const askChatbot = (queryText) => {
     return apiClient.post('/ask', { text: queryText });
+};
+
+// src/services/api.js (añade esta función)
+
+export const matchProject = (description) => {
+    return apiClient.post('/match-project', { description: description });
 };

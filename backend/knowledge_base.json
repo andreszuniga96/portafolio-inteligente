@@ -1,91 +1,245 @@
 {
-  "personalInfo": {
+  "personal_info": {
     "name": "Ivan Andres Zuñiga Romo",
-    "title": "Líder en Transformación Digital | Full-Stack Developer con Enfoque en IA",
-    "location": "Pasto, Nariño, Colombia",
-    "email": "ivanzuiga1996@gmail.com",
-    "phone": "+57 322 913 2643"
+    "title": "Líder en Transformación Digital | Full-Stack Developer, con Enfoque en IA y Estratega de Innovación Tecnológica",
+    "contact": {
+      "phone": "+57 322 913 2643",
+      "email": "ivanzuiga1996@gmail.com",
+      "address": "Calle 18 No. 58-60 Pasto- Nariño"
+    },
+    "languages": [
+      {
+        "language": "Español",
+        "level": "Nativo"
+      },
+      {
+        "language": "Ingles",
+        "level": "B1"
+      }
+    ]
   },
-  "professionalSummary": "Ingeniero de Sistemas, Especialista en Alta Gerencia y Magister en Administración, con amplia experiencia en gestión estratégica y tecnológica. Mi trayectoria incluye conocimientos en Inteligencia Artificial, Programación, Análisis de Datos, Arquitectura en la Nube y Blockchain. Como desarrollador Fullstack, poseo una sólida capacidad para construir y mantener aplicaciones web completas, desde el front-end hasta el back-end, asegurando soluciones tecnológicas integrales y eficientes.",
-  "workExperience": [
+  "professional_profile": "Ingeniero de Sistemas, Especialista en Alta Gerencia y Magister en Administración, con amplia experiencia en gestión estratégica y tecnológica. Mi trayectoria incluye conocimientos en Inteligencia Artificial, Programación, Análisis de Datos, Arquitectura en la Nube y Blockchain. Como desarrollador Fullstack, poseo una sólida capacidad para construir y mantener aplicaciones web completas, abarcando desde el diseño y la implementación de interfaces de usuario intuitivas (front-end) hasta la gestión de la lógica del servidor, bases de datos y APIs (back-end), asegurando soluciones tecnológicas integrales y eficientes. Esta habilidad se complementa con un sólido desempeño en roles clave. He trabajado como Analista de Seguridad de la Información, destacándome en la protección y gestión de datos críticos. Como Monitor y Mentor en los bootcamps del proyecto Talento TECH, y en roles destacados en el sector público, como Director Técnico del proceso electoral PRECONTEO en Nariño e Ingeniero Facilitador en CTei para Puerres, Nariño, he liderado proyectos de alta complejidad con enfoque en innovación y resultados sostenibles. Además, he brindado asesoría en la formulación de Planes de Desarrollo Municipal para Pasto, Tangua y Guachucal, implementando la Metodología General Ajustada (MGA) para impulsar el desarrollo sostenible.",
+  "skills": [
+    "Liderazgo",
+    "Trabajo en equipo",
+    "Orientado a soluciones",
+    "Proactividad",
+    "Visión estratégica",
+    "Desarrollo sostenible",
+    "Adaptabilidad",
+    "Comunicación efectiva",
+    "Proactivo"
+  ],
+  "professional_achievements": [
+    "PDM Pasto (2024-2027)",
+    "PDM Guachucal (2024-2027)",
+    "PDM Tangua (2024-2027)"
+  ],
+  "experience": [
     {
+      "position": "Mentor de bootcamps proyecto Talento TECH Región 2",
       "company": "Universidad de Antioquia",
-      "role": "Mentor de bootcamps proyecto Talento TECH Región 2",
-      "period": "Marzo 2025 - Mayo 2025",
-      "description": "Responsable de impartir clases sincrónicas, gestionar contenidos educativos y promover propuestas innovadoras para el proyecto Talento TECH.",
-      "keyFunctions": [
-        "Impartir clases sincrónicas de al menos 8 horas semanales.",
-        "Asegurar la implementación y evaluación de talleres y proyectos.",
-        "Generar reportes diarios y ofrecer formación personalizada."
-      ],
-      "technologiesUsed": ["Inteligencia Artificial", "Análisis de Datos", "Programación", "Blockchain", "Full-Stack"]
+      "dates": "Marzo 2025 - Mayo 2025",
+      "responsibilities": [
+        "Impartir clases sincrónicas de al menos 8 horas semanales, gestionar contenidos educativos y promover propuestas innovadoras.",
+        "Asegurar la implementación y evaluación de talleres y proyectos, generar reportes diarios, y Ofrecer formación personalizada según sea necesario, cumpliendo con los objetivos del proyecto."
+      ]
     },
     {
+      "position": "Mentor de bootcamps proyecto Talento TECH Región 3",
+      "company": "Universidad de Tecnológica de Pereira",
+      "dates": "Febrero 2025 - Mayo 2025",
+      "responsibilities": [
+        "Impartir clases sincrónicas de al menos 8 horas semanales, gestionar contenidos educativos y promover propuestas innovadoras.",
+        "Asegurar la implementación y evaluación de talleres y proyectos, generar reportes diarios, y Ofrecer formación personalizada según sea necesario, cumpliendo con los objetivos del proyecto."
+      ]
+    },
+    {
+      "position": "Mentor de bootcamps proyecto Talento TECH Región 2",
+      "company": "Universidad de Antioquia",
+      "dates": "Octubre 2024 - Diciembre 2024",
+      "responsibilities": [
+        "Impartir clases sincrónicas de al menos 8 horas semanales, gestionar contenidos educativos y promover propuestas innovadoras.",
+        "Asegurar la implementación y evaluación de talleres y proyectos, generar reportes diarios, y Ofrecer formación personalizada según sea necesario, cumpliendo con los objetivos del proyecto."
+      ]
+    },
+    {
+      "position": "Mentor de bootcamps proyecto Talento TECH Región 1",
+      "company": "Cymetria Group S.A.S",
+      "dates": "Junio 2024 - Diciembre 2024",
+      "responsibilities": [
+        "Impartir clases sincrónicas de al menos 8 horas semanales, gestionar contenidos educativos y promover propuestas innovadoras.",
+        "Asegurar la implementación y evaluación de talleres y proyectos, generar reportes diarios, y Ofrecer formación personalizada según sea necesario, cumpliendo con los objetivos del proyecto."
+      ]
+    },
+    {
+      "position": "Monitor de bootcamps proyecto Talento TECH Región 3",
+      "company": "Universidad Tecnológica de Pereira - UTP",
+      "dates": "Junio 2024 - Septiembre 2024",
+      "responsibilities": [
+        "Gestionar y apoyar el proceso educativo, atendiendo a los beneficiarios y promoviendo el proyecto.",
+        "Lidera la formación en conceptos financieros básicos, dinamiza actividades como hackathones y ferias de empleo, y acompaña a mentores y beneficiarios en su aprendizaje.",
+        "Además, implementa estrategias innovadoras, verifica el cumplimiento del plan de estudios, y genera informes regulares para asegurar que se alcancen los objetivos del proyecto."
+      ]
+    },
+    {
+      "position": "Asesor Plan de Desarrollo del Municipio de Pasto",
+      "company": "Agencia de Desarrollo Local - ADEL",
+      "dates": "Febrero 2024 - Julio 2024",
+      "responsibilities": [
+        "Coordinar y asesorar actividades de formulación del plan, controlar procesos y manejar información, establecer relaciones con instancias relevantes, completar documentos necesarios, facilitar discusiones técnicas, gestionar con las partes involucradas, documentar procesos de campo, presentar informes mensuales y cumplir con cualquier otra actividad requerida para la ejecución del contrato."
+      ]
+    },
+    {
+      "position": "Asesor de Metodología General Ajustada (MGA)",
+      "company": "Alcaldía Municipal de Guachucal",
+      "dates": "Marzo 2024 - Mayo 2024",
+      "responsibilities": [
+        "Mejorar la gestión de proyectos, fortalecer capacidades locales, fomentar la participación comunitaria, identificar necesidades locales, definir contenidos y metodologías, desarrollar sesiones prácticas, brindar apoyo continuo al personal municipal y evaluar resultados para futuras intervenciones."
+      ]
+    },
+    {
+      "position": "Director técnico proceso electoral PRECONTEO en Nariño",
+      "company": "Thomas Processing & System",
+      "dates": "Agosto 2023 - Noviembre 2023",
+      "responsibilities": [
+        "Dirigir y supervisar actividades para garantizar la integridad, transparencia y eficiencia del proceso electoral.",
+        "Estableciendo grupos de trabajo eficientes Coordinando equipos, estableciendo protocolos de seguridad, asegurando la precisión de los datos y colaborando con autoridades y partes interesadas."
+      ]
+    },
+    {
+      "position": "Ingeniero Facilitador",
+      "company": "Parquesoft Pacifico",
+      "dates": "Diciembre 2022 - Marzo 2023",
+      "responsibilities": [
+        "Guiar y apoyar a la comunidad en la comprensión y aplicación de la ciencia, tecnología e innovación (CTel), mediante talleres y actividades para fortalecer sus habilidades y promover su participación en proyectos de investigación e innovación para el desarrollo sostenible local."
+      ]
+    },
+    {
+      "position": "Desarrollador Full Stack",
       "company": "Dozurcol Pasto",
-      "role": "Desarrollador Full Stack",
-      "period": "Agosto 2019 - Diciembre 2022",
-      "description": "Realicé el desarrollo integral full-stack de aplicaciones web, participando en su ciclo de vida completo para entregar soluciones tecnológicas eficientes y de alta calidad.",
-      "keyFunctions": [
-        "Diseñar y desarrollar interfaces de usuario interactivas y responsivas (front-end) con tecnologías como HTML, CSS, y JavaScript.",
-        "Construir y mantener la lógica del lado del servidor (back-end) y APIs robustas.",
-        "Gestionar y diseñar bases de datos relacionales (PostgreSQL, MySQL) y NoSQL (MongoDB).",
-        "Colaborar con equipos multidisciplinarios para definir requerimientos."
-      ],
-      "technologiesUsed": ["HTML", "CSS", "JavaScript", "React", "Angular", "Node.js", "Python", "Java", "PostgreSQL", "MySQL", "MongoDB", "Git"]
+      "dates": "Agosto 2019 - Diciembre 2022",
+      "responsibilities": [
+        "Realizar el desarrollo integral full-stack de aplicaciones web, desde la interfaz de usuario (front-end) hasta la lógica del servidor y bases de datos (back-end), participando en su ciclo de vida completo para entregar soluciones tecnológicas eficientes y de alta calidad.",
+        "Colaboró activamente con equipos multidisciplinarios para definir requerimientos."
+      ]
     },
     {
+      "position": "Docente",
+      "company": "INSTITUTO TÉCNICO SISTEMATIZADO DE NARIÑO",
+      "dates": "Enero 2021 - Diciembre 2022",
+      "responsibilities": [
+        "Impartir clases y actividades académicas, diseñar y actualizar contenidos del curso, evaluar el rendimiento de los estudiantes y ofrecer retroalimentación.",
+        "Coordinar con el personal académico y administrativo para garantizar la calidad educativa y apoyar el desarrollo de los estudiantes."
+      ]
+    },
+    {
+      "position": "Diseñador de pagina web",
+      "company": "Asociación RENACER de familias desplazadas",
+      "dates": "Enero 2021 - Junio 2021",
+      "responsibilities": [
+        "Diseño, formulación e implementación de pagina web, con su respectivo hosting y dominio.",
+        "Capacitaciones sobre el manejo responsable de la pagina web.",
+        "Test de ancho de banda de la pagina web."
+      ]
+    },
+    {
+      "position": "Analista de la seguridad de la información",
       "company": "Comercializadora Dozurcol",
-      "role": "Analista de la seguridad de la información y Ciberseguridad",
-      "period": "Julio 2016 - Julio 2019",
-      "description": "Mi rol se centró en la ciberseguridad y la protección de datos. Fui responsable de supervisar registros de seguridad, identificar amenazas y vulnerabilidades, y proponer medidas de mitigación para asegurar la protección continua de sistemas y redes.",
-      "keyFunctions": [
-        "Supervisar registros de seguridad e identificar amenazas.",
-        "Implementar soluciones de seguridad y elaborar material educativo.",
-        "Diseñar, administrar y optimizar bases de datos en PostgreSQL y SQL Server."
-      ],
-      "technologiesUsed": ["Ciberseguridad", "Análisis de Seguridad", "Gestión de Vulnerabilidades", "PostgreSQL", "SQL Server", "ETL", "Security Analysis"]
+      "dates": "Julio 2016 - Julio 2019",
+      "responsibilities": [
+        "Supervisar registros de seguridad, identificar amenazas y vulnerabilidades, proponer medidas de mitigación, coordinar respuestas a incidentes, implementar soluciones de seguridad y elaborar material educativo sobre mejores prácticas.",
+        "Asegurar la protección continua de sistemas y redes mediante la evaluación y ajuste de estrategias de seguridad."
+      ]
     }
   ],
   "education": [
     {
-      "institution": "Universidad a Distancia de Madrid (UDIMA)",
       "degree": "Master en Inteligencia Artificial",
-      "period": "2025-2026"
+      "institution": "Universidad a Distancia de Madrid (UDIMA)",
+      "dates": "2025-2026"
     },
     {
-      "institution": "Universidad Mariana Sede Pasto",
+      "degree": "Google Cybersecurity (Certificado profesional)",
+      "institution": "Google",
+      "dates": "2025"
+    },
+    {
+      "degree": "Microsoft Power BI Data Analyst (Certificado profesional)",
+      "institution": "Microsoft",
+      "dates": "2025"
+    },
+    {
+      "degree": "Google IT Support (Certificado profesional)",
+      "institution": "Google",
+      "dates": "2025"
+    },
+    {
       "degree": "Magister en Administración",
-      "period": "2021-2023"
+      "institution": "Universidad Mariana Sede Pasto",
+      "dates": "2021-2023"
     },
     {
+      "degree": "Especialista en Alta Gerencia",
+      "institution": "Universidad Mariana Sede Pasto",
+      "dates": "2018-2019"
+    },
+    {
+      "degree": "Notación para el modelado de procesos de negocio",
+      "institution": "Universidad Rey Juan Carlos Sede Madrid, España",
+      "dates": "2016-2016"
+    },
+    {
+      "degree": "Programa internacional de modelamiento BPM",
       "institution": "Universidad Sergio Arboleda Sede Bogotá",
+      "dates": "2016-2016"
+    },
+    {
       "degree": "Ingeniero de sistemas y telecomunicaciones",
-      "period": "2012-2017"
+      "institution": "Universidad Sergio Arboleda Sede Bogotá",
+      "dates": "2012-2017"
     }
   ],
-  "certifications": [
-    {
-      "name": "Google Cybersecurity (Certificado profesional)",
-      "issuer": "Google",
-      "year": 2025,
-      "skills": ["Cybersecurity", "Python", "Linux", "SQL", "SIEM", "IDS"]
-    },
-    {
-      "name": "Microsoft Power BI Data Analyst (Certificado profesional)",
-      "issuer": "Microsoft",
-      "year": 2025,
-      "skills": ["Power BI", "Data Analysis", "DAX", "Data Modeling"]
-    },
-    {
-      "name": "Google IT Support (Certificado profesional)",
-      "issuer": "Google",
-      "year": 2025,
-      "skills": ["IT Support", "Networking", "Operating Systems", "System Administration"]
-    }
+  "academic_distinctions": [
+    "Mención de honor en Maestría en administración (2023)",
+    "Certificado de alto rendimiento en Especialización de Alta Gerencia (2021)"
   ],
-  "skills": {
-    "technical": ["Python", "JavaScript", "SQL", "HTML", "CSS", "React", "Angular", "Node.js", "Java", "PostgreSQL", "MySQL", "MongoDB", "Power BI", "Git", "Linux"],
-    "soft": ["Liderazgo", "Trabajo en equipo", "Orientado a soluciones", "Visión estratégica", "Desarrollo sostenible", "Comunicación efectiva", "Adaptabilidad"],
-    "ia": ["Inteligencia Artificial", "Análisis de Datos", "Cloud Architecture", "Blockchain", "Procesamiento de Lenguaje Natural (NLP)", "Machine Learning"]
-  }
+  "diplomado": "Programa internacional de modelamiento BPM (Colombia - España)",
+  "academic_achievements": [
+    "Libro: La innovacion, el emprendimiento y la competitividad (2021)",
+    "Ponencia: El déficit económico que presentan las MiPymes por Covid-19 en Colombia (2020)"
+  ],
+  "courses": [
+    "Put It to Work: Prepare for Cybersecurity Jobs (2025)",
+    "Automate Cybersecurity Tasks with Python (2025)",
+    "Sound the Alarm: Detection and Response (2025)",
+    "Assets, Threats, and Vulnerabilities (2025)",
+    "Tools of the Trade: Linux and SQL (2025)",
+    "Connect and Protect: Networks and Network Security (2025)",
+    "Play It Safe: Manage Security Risks (2025)",
+    "Foundations of Cybersecurity (2025)",
+    "Microsoft Exam PL-300 Preparation and Practice (2025)",
+    "Deploy and Maintain Power BI Assets and Capstone project (2025)",
+    "Creative Designing in Power BI (2025)",
+    "Data Analysis and Visualization with Power BI (2025)",
+    "Data Modeling in Power BI (2025)",
+    "Extract, Transform and Load Data in Power BI (2025)",
+    "IT Security: Defense against the digital dark arts (2025)",
+    "System Administration and IT Infrastructure Services (2025)",
+    "Operating Systems and You: Becoming a Power User (2025)",
+    "The Bits and Bytes of Computer Networking (2025)",
+    "Technical Support Fundamentals (2025)"
+  ],
+  "professional_references": [
+    {
+      "name": "Sandra Milena Gómez",
+      "title": "Analista de prestaciones",
+      "phone": "+57 311 310 7384"
+    },
+    {
+      "name": "Luis Fernando Zambrano",
+      "title": "Arquitecto",
+      "phone": "+57 300 103 6956"
+    }
+  ]
 }

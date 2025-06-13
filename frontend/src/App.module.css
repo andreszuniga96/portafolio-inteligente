@@ -1,0 +1,109 @@
+/* src/App.module.css */
+
+.app {
+  background-color: #111827; /* Un gris oscuro casi negro */
+  color: #d1d5db; /* Un gris claro para el texto */
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+  flex-direction: column; /* Apilado en móvil */
+}
+
+/* Estilos para la imagen, nombre, título y enlaces */
+.heroImage {
+  width: 160px;
+  height: 160px;
+  border-radius: 9999px;
+  object-fit: cover;
+  border: 4px solid #22d3ee; /* Color cian */
+  box-shadow: 0 0 15px rgba(34, 211, 238, 0.4);
+  margin-bottom: 1.5rem;
+}
+
+.heroInfo {
+  text-align: center;
+}
+
+.heroName {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.heroTitle {
+  font-size: 1.5rem;
+  color: #22d3ee; /* Cian */
+  margin-top: 0.5rem;
+}
+
+.heroLinks {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.heroLinks a {
+  font-size: 1.5rem; /* Tamaño de los íconos */
+  color: #9ca3af;
+  transition: color 0.2s;
+}
+
+.heroLinks a:hover {
+  color: #22d3ee;
+}
+
+/* Estilo para las tarjetas de sección */
+.section {
+  background-color: #1f2937; /* Gris un poco más claro */
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #22d3ee;
+  display: inline-block;
+}
+
+.section p {
+  font-size: 1.125rem;
+  line-height: 1.75;
+}
+
+/* Media query para pantallas más grandes */
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row; /* Lado a lado en escritorio */
+    text-align: left;
+  }
+  .heroImage {
+    margin-bottom: 0;
+    margin-right: 2rem;
+  }
+  .heroInfo {
+    text-align: left;
+  }
+  .heroLinks {
+    justify-content: flex-start;
+  }
+}

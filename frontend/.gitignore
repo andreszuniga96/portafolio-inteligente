@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Ignorar el entorno virtual de Python
+venv/
+# Ignorar archivos de entorno con variables secretas
+.env
