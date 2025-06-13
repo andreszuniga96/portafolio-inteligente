@@ -1,0 +1,62 @@
+/* src/App.css */
+:root {
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+  --primary-color: #03dac6;
+  --card-bg-color: #1e1e1e;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 2rem;
+}
+
+.App-header { text-align: center; margin-bottom: 3rem; }
+.App-header h1 { color: var(--primary-color); }
+
+.experience-card {
+    background-color: var(--card-bg-color);
+    border-left: 3px solid var(--primary-color);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+}
+
+.tech-tag {
+    background-color: #333;
+    color: var(--primary-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+/* --- Estilos del Chatbot --- */
+.chatbot-window {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 350px;
+    height: 500px;
+    background-color: var(--card-bg-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.messages-area { flex-grow: 1; padding: 1rem; overflow-y: auto; }
+
+.message { margin-bottom: 1rem; }
+.message p { padding: 0.75rem; border-radius: 15px; margin: 0; }
+.message.user p { background-color: var(--primary-color); color: #000; margin-left: auto; max-width: 80%; }
+.message.bot p { background-color: #333; max-width: 80%; }
+
+.input-area { display: flex; padding: 0.5rem; border-top: 1px solid #444; }
+.input-area input { flex-grow: 1; border: none; background: #333; color: var(--text-color); padding: 0.75rem; border-radius: 15px; }
+.input-area button { border: none; background: var(--primary-color); color: #000; padding: 0.75rem 1rem; margin-left: 0.5rem; border-radius: 15px; cursor: pointer; }
