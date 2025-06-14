@@ -1,6 +1,6 @@
 {
   "personal_info": {
-    "name": "Ivan Andres Zuñiga Romo",
+    "name": "IVAN ANDRES ZUÑIGA ROMO",
     "title": "Líder en Transformación Digital | Full-Stack Developer, con Enfoque en IA y Estratega de Innovación Tecnológica",
     "contact": {
       "phone": "+57 322 913 2643",
@@ -18,7 +18,7 @@
       }
     ]
   },
-  "professional_profile": "Ingeniero de Sistemas, Especialista en Alta Gerencia y Magister en Administración, con amplia experiencia en gestión estratégica y tecnológica. Mi trayectoria incluye conocimientos en Inteligencia Artificial, Programación, Análisis de Datos, Arquitectura en la Nube y Blockchain. Como desarrollador Fullstack, poseo una sólida capacidad para construir y mantener aplicaciones web completas, abarcando desde el diseño y la implementación de interfaces de usuario intuitivas (front-end) hasta la gestión de la lógica del servidor, bases de datos y APIs (back-end), asegurando soluciones tecnológicas integrales y eficientes. Esta habilidad se complementa con un sólido desempeño en roles clave. He trabajado como Analista de Seguridad de la Información, destacándome en la protección y gestión de datos críticos. Como Monitor y Mentor en los bootcamps del proyecto Talento TECH, y en roles destacados en el sector público, como Director Técnico del proceso electoral PRECONTEO en Nariño e Ingeniero Facilitador en CTei para Puerres, Nariño, he liderado proyectos de alta complejidad con enfoque en innovación y resultados sostenibles. Además, he brindado asesoría en la formulación de Planes de Desarrollo Municipal para Pasto, Tangua y Guachucal, implementando la Metodología General Ajustada (MGA) para impulsar el desarrollo sostenible.",
+  "professional_profile": "Soy un Ingeniero de Sistemas con Maestría en Administración y Especialización en Alta Gerencia que fusiona una profunda experiencia técnica con una visión de gestión estratégica. Como desarrollador Fullstack, diseño y construyo soluciones tecnológicas integrales, especializándome en Inteligencia Artificial, Arquitectura en la Nube, Análisis de Datos y Seguridad de la Información. Mi trayectoria se destaca por liderar proyectos de alta complejidad y gran impacto, desde la dirección técnica del proceso electoral en Nariño hasta la asesoría estratégica en planes de desarrollo municipal. Mi objetivo es claro: aplicar la tecnología como una herramienta para impulsar la innovación, la eficiencia y el desarrollo sostenible.",
   "skills": [
     "Liderazgo",
     "Trabajo en equipo",
@@ -37,49 +37,12 @@
   ],
   "experience": [
     {
-      "position": "Mentor de bootcamps proyecto Talento TECH Región 2",
-      "company": "Universidad de Antioquia",
-      "dates": "Marzo 2025 - Mayo 2025",
+      "position": "Mentor de bootcamps (IA, Analisis de datos, full stack, ciberseguridad, blockchain, Arquitectura en la nube) proyecto Talento TECH Región 1, 2 y 3",
+      "company": "Cymetria Group S.A.S/ Universidad de Antioquia / Universidad de Tecnológica de Pereira",
+      "dates": "Junio 2024 - Septiembre 2025",
       "responsibilities": [
         "Impartir clases sincrónicas de al menos 8 horas semanales, gestionar contenidos educativos y promover propuestas innovadoras.",
         "Asegurar la implementación y evaluación de talleres y proyectos, generar reportes diarios, y Ofrecer formación personalizada según sea necesario, cumpliendo con los objetivos del proyecto."
-      ]
-    },
-    {
-      "position": "Mentor de bootcamps proyecto Talento TECH Región 3",
-      "company": "Universidad de Tecnológica de Pereira",
-      "dates": "Febrero 2025 - Mayo 2025",
-      "responsibilities": [
-        "Impartir clases sincrónicas de al menos 8 horas semanales, gestionar contenidos educativos y promover propuestas innovadoras.",
-        "Asegurar la implementación y evaluación de talleres y proyectos, generar reportes diarios, y Ofrecer formación personalizada según sea necesario, cumpliendo con los objetivos del proyecto."
-      ]
-    },
-    {
-      "position": "Mentor de bootcamps proyecto Talento TECH Región 2",
-      "company": "Universidad de Antioquia",
-      "dates": "Octubre 2024 - Diciembre 2024",
-      "responsibilities": [
-        "Impartir clases sincrónicas de al menos 8 horas semanales, gestionar contenidos educativos y promover propuestas innovadoras.",
-        "Asegurar la implementación y evaluación de talleres y proyectos, generar reportes diarios, y Ofrecer formación personalizada según sea necesario, cumpliendo con los objetivos del proyecto."
-      ]
-    },
-    {
-      "position": "Mentor de bootcamps proyecto Talento TECH Región 1",
-      "company": "Cymetria Group S.A.S",
-      "dates": "Junio 2024 - Diciembre 2024",
-      "responsibilities": [
-        "Impartir clases sincrónicas de al menos 8 horas semanales, gestionar contenidos educativos y promover propuestas innovadoras.",
-        "Asegurar la implementación y evaluación de talleres y proyectos, generar reportes diarios, y Ofrecer formación personalizada según sea necesario, cumpliendo con los objetivos del proyecto."
-      ]
-    },
-    {
-      "position": "Monitor de bootcamps proyecto Talento TECH Región 3",
-      "company": "Universidad Tecnológica de Pereira - UTP",
-      "dates": "Junio 2024 - Septiembre 2024",
-      "responsibilities": [
-        "Gestionar y apoyar el proceso educativo, atendiendo a los beneficiarios y promoviendo el proyecto.",
-        "Lidera la formación en conceptos financieros básicos, dinamiza actividades como hackathones y ferias de empleo, y acompaña a mentores y beneficiarios en su aprendizaje.",
-        "Además, implementa estrategias innovadoras, verifica el cumplimiento del plan de estudios, y genera informes regulares para asegurar que se alcancen los objetivos del proyecto."
       ]
     },
     {
@@ -91,28 +54,12 @@
       ]
     },
     {
-      "position": "Asesor de Metodología General Ajustada (MGA)",
-      "company": "Alcaldía Municipal de Guachucal",
-      "dates": "Marzo 2024 - Mayo 2024",
-      "responsibilities": [
-        "Mejorar la gestión de proyectos, fortalecer capacidades locales, fomentar la participación comunitaria, identificar necesidades locales, definir contenidos y metodologías, desarrollar sesiones prácticas, brindar apoyo continuo al personal municipal y evaluar resultados para futuras intervenciones."
-      ]
-    },
-    {
       "position": "Director técnico proceso electoral PRECONTEO en Nariño",
       "company": "Thomas Processing & System",
       "dates": "Agosto 2023 - Noviembre 2023",
       "responsibilities": [
         "Dirigir y supervisar actividades para garantizar la integridad, transparencia y eficiencia del proceso electoral.",
         "Estableciendo grupos de trabajo eficientes Coordinando equipos, estableciendo protocolos de seguridad, asegurando la precisión de los datos y colaborando con autoridades y partes interesadas."
-      ]
-    },
-    {
-      "position": "Ingeniero Facilitador",
-      "company": "Parquesoft Pacifico",
-      "dates": "Diciembre 2022 - Marzo 2023",
-      "responsibilities": [
-        "Guiar y apoyar a la comunidad en la comprensión y aplicación de la ciencia, tecnología e innovación (CTel), mediante talleres y actividades para fortalecer sus habilidades y promover su participación en proyectos de investigación e innovación para el desarrollo sostenible local."
       ]
     },
     {
@@ -131,16 +78,6 @@
       "responsibilities": [
         "Impartir clases y actividades académicas, diseñar y actualizar contenidos del curso, evaluar el rendimiento de los estudiantes y ofrecer retroalimentación.",
         "Coordinar con el personal académico y administrativo para garantizar la calidad educativa y apoyar el desarrollo de los estudiantes."
-      ]
-    },
-    {
-      "position": "Diseñador de pagina web",
-      "company": "Asociación RENACER de familias desplazadas",
-      "dates": "Enero 2021 - Junio 2021",
-      "responsibilities": [
-        "Diseño, formulación e implementación de pagina web, con su respectivo hosting y dominio.",
-        "Capacitaciones sobre el manejo responsable de la pagina web.",
-        "Test de ancho de banda de la pagina web."
       ]
     },
     {

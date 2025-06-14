@@ -1,12 +1,14 @@
-// src/components/SkillsGrid.jsx (Versión Final y Segura)
+// src/components/SkillsGrid.jsx (Versión Final a Prueba de Errores)
+
 import React from 'react';
 import { SimpleGrid, Box, Text, Icon } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 
-// Importamos los íconos de diferentes sets
-import { FaReact, FaPython, FaNodeJs, FaDatabase, FaAws, FaDocker, FaCloud } from 'react-icons/fa'; // Añadimos FaCloud
-import { SiPostgresql, SiMongodb, SiGooglecloud, SiBlockchaindotcom } from 'react-icons/si'; // Eliminamos el ícono problemático
-import { AiOutlineRobot } from 'react-icons/ai';
+// Importamos un set de íconos seguros y añadimos FaChartBar
+import { FaReact, FaPython, FaNodeJs, FaDatabase, FaAws, FaDocker, FaCloud, FaLinux, FaProjectDiagram, FaChartBar } from 'react-icons/fa';
+import { SiPostgresql, SiMongodb, SiGooglecloud, SiBlockchaindotcom, SiMysql } from 'react-icons/si'; 
+import { AiOutlineRobot, AiOutlineSecurityScan } from 'react-icons/ai';
+import { MdOutlineAssessment } from "react-icons/md";
 
 const MotionBox = motion(Box);
 
@@ -15,21 +17,29 @@ const skillIcons = {
   'react': FaReact,
   'python': FaPython,
   'node.js': FaNodeJs,
+  'aws': FaAws,
+  'google cloud': SiGooglecloud,
+  'docker': FaDocker,
+  'linux': FaLinux,
   'sql': FaDatabase,
+  'mysql': SiMysql,
   'postgresql': SiPostgresql,
   'mongodb': SiMongodb,
+  'power bi': FaChartBar, // <-- CAMBIO DEFINITIVO: Usamos un ícono de gráfico que no falla.
+  'ciberseguridad': AiOutlineSecurityScan,
   'inteligencia artificial': AiOutlineRobot,
-  'aws': FaAws,
-  'azure': FaCloud, // <-- IMPORTANTE: Usamos el ícono genérico FaCloud como reemplazo
-  'google cloud': SiGooglecloud,
   'blockchain': SiBlockchaindotcom,
-  'docker': FaDocker,
+  'proyectos de inversión': FaProjectDiagram,
+  'mga': MdOutlineAssessment,
+  'planes de desarrollo': MdOutlineAssessment,
 };
 
+// Lista curada y expandida de habilidades
 const displayedSkills = [
-    'React', 'Python', 'Node.js', 'PostgreSQL', 'MongoDB', 
-    'Inteligencia Artificial', 'AWS', 'Azure', 'Google Cloud', 
-    'Blockchain', 'Docker'
+    'Python', 'Inteligencia Artificial', 'React', 'Node.js', 
+    'SQL', 'PostgreSQL', 'MongoDB', 'Power BI', 
+    'Ciberseguridad', 'Blockchain', 'Docker', 'Linux', 
+    'AWS', 'Google Cloud', 'MGA', 'Planes de Desarrollo'
 ];
 
 export function SkillsGrid() {
@@ -39,9 +49,9 @@ export function SkillsGrid() {
   };
 
   return (
-    <SimpleGrid columns={{ base: 2, md: 3, lg: 4 }} spacing={8}>
+    <SimpleGrid columns={{ base: 2, md: 3, lg: 4 }} spacing={6}>
       {displayedSkills.map((skill, index) => {
-        const IconComponent = skillIcons[skill.toLowerCase()] || AiOutlineRobot;
+        const IconComponent = skillIcons[skill.toLowerCase()] || FaCloud;
         return (
           <MotionBox
             key={index}
@@ -52,9 +62,11 @@ export function SkillsGrid() {
             variants={cardVariants}
             whileHover={{ scale: 1.1, boxShadow: '0 0 20px rgba(56, 178, 172, 0.6)' }}
             transition={{ duration: 0.2 }}
+            border="1px solid"
+            borderColor="gray.700"
           >
-            <Icon as={IconComponent} boxSize={12} color="cyan.400" mb={4} />
-            <Text color="white" fontWeight="bold">{skill}</Text>
+            <Icon as={IconComponent} boxSize={10} color="cyan.400" mb={3} />
+            <Text color="white" fontWeight="bold" fontSize="sm">{skill}</Text>
           </MotionBox>
         );
       })}
