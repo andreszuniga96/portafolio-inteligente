@@ -48,6 +48,7 @@ origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
     "https://portafolio-inteligente.vercel.app", # Tu URL de producción
+    "https://iazr-cv.vercel.app/"
 ]
 app.add_middleware(
     CORSMiddleware,
