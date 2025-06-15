@@ -1,11 +1,20 @@
 {
   "personal_info": {
     "name": "IVAN ANDRES ZUÑIGA ROMO",
-    "title": "Líder en Transformación Digital | Full-Stack Developer, con Enfoque en IA y Estratega de Innovación Tecnológica",
+    "title": [
+      "Líder en Transformación Digital",
+      "Full-Stack Developer con Enfoque en IA",
+      "Estratega de Innovación Tecnológica"
+    ],
     "contact": {
       "phone": "+57 322 913 2643",
       "email": "ivanzuiga1996@gmail.com",
-      "address": "Calle 18 No. 58-60 Pasto- Nariño"
+      "address": "Calle 18 No. 58-60 Pasto- Nariño",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/iazr96/",
+        "github": "https://github.com/andreszuniga96",
+        "instagram": ""
+      }
     },
     "languages": [
       {
@@ -13,36 +22,61 @@
         "level": "Nativo"
       },
       {
-        "language": "Ingles",
+        "language": "Inglés",
         "level": "B1"
       }
     ]
   },
-  "professional_profile": "Soy un Ingeniero de Sistemas con Maestría en Administración y Especialización en Alta Gerencia que fusiona una profunda experiencia técnica con una visión de gestión estratégica. Como desarrollador Fullstack, diseño y construyo soluciones tecnológicas integrales, especializándome en Inteligencia Artificial, Arquitectura en la Nube, Análisis de Datos y Seguridad de la Información. Mi trayectoria se destaca por liderar proyectos de alta complejidad y gran impacto, desde la dirección técnica del proceso electoral en Nariño hasta la asesoría estratégica en planes de desarrollo municipal. Mi objetivo es claro: aplicar la tecnología como una herramienta para impulsar la innovación, la eficiencia y el desarrollo sostenible.",
-  "skills": [
-    "Liderazgo",
-    "Trabajo en equipo",
-    "Orientado a soluciones",
-    "Proactividad",
-    "Visión estratégica",
-    "Desarrollo sostenible",
-    "Adaptabilidad",
-    "Comunicación efectiva",
-    "Proactivo"
+  "summaries": {
+  "who_am_i": "Soy un estratega y desarrollador que convierte desafíos de negocio en soluciones tecnológicas eficientes. Mi especialidad es fusionar el desarrollo Full-Stack con la inteligencia artificial para crear aplicaciones que automaticen procesos, potencien el crecimiento y le den una ventaja competitiva a tu proyecto.",
+  "professional_profile": "Ingeniero de Sistemas y telecomunicaciones, con Maestrías en Administración e Inteligencia Artificial (en curso) y Especialización en Alta Gerencia. Mi carrera se define por la intersección de la tecnología y la estrategia. Como desarrollador Full-Stack, arquitecto soluciones integrales en la nube y experto en ciberseguridad. Como estratega, he liderado proyectos de alto impacto, desde la dirección técnica de procesos electorales hasta la asesoría en planes de desarrollo municipal, aplicando siempre la tecnología como una herramienta para impulsar la innovación y el desarrollo sostenible."
+  },
+  "services": [
+    {
+      "title": "Desarrollo de Aplicaciones Web y Móviles a Medida",
+      "icon": "FaCode",
+      "description": "Transformo tu visión en una solución digital robusta y escalable. Me especializo en la construcción de aplicaciones completas (Full-Stack), desde el diseño de una interfaz de usuario atractiva e intuitiva hasta la creación de un back-end potente y seguro.",
+      "skills_and_technologies": [ "Desarrollo Full-Stack", "Diseño de UI/UX", "Bases de Datos (SQL/NoSQL)", "Desarrollo de APIs", "Arquitectura en la Nube" ]
+    },
+    {
+      "title": "Consultoría en IA y Transformación Digital",
+      "icon": "AiOutlineRobot",
+      "description": "Ayudo a las empresas a ser más inteligentes y eficientes. Implemento soluciones de Inteligencia Artificial para automatizar procesos, analizar datos y crear experiencias de usuario personalizadas (como chatbots o sistemas de recomendación).",
+      "skills_and_technologies": [ "Liderazgo en Transformación Digital", "Inteligencia Artificial", "Análisis de Datos", "Machine Learning" ]
+    },
+    {
+      "title": "Estrategia y Gestión de Proyectos Tecnológicos",
+      "icon": "FaProjectDiagram",
+      "description": "Lidero proyectos tecnológicos complejos desde la concepción hasta el éxito. Mi experiencia como Director Técnico y Asesor en Planes de Desarrollo me permite gestionar equipos, definir hojas de ruta claras y asegurar entregas de alta calidad utilizando metodologías ágiles.",
+      "skills_and_technologies": [ "Dirección de Proyectos", "Metodologías Ágiles (SCRUM)", "Planificación Estratégica", "Gestión de Equipos", "MGA" ]
+    },
+    {
+      "title": "Análisis y Visualización de Datos (Business Intelligence)",
+      "icon": "FaChartBar",
+      "description": "Convierto tus datos en decisiones estratégicas. Utilizando herramientas como Microsoft Power BI, diseño y construyo dashboards interactivos que te permiten entender el comportamiento de tus clientes, optimizar ventas y visualizar el rendimiento de tu negocio.",
+      "skills_and_technologies": [ "Microsoft Power BI", "Análisis de Datos", "Visualización de Datos", "SQL" ]
+    },
+    {
+      "title": "Seguridad Informática y Arquitectura Cloud",
+      "icon": "MdSecurity",
+      "description": "Diseño e implemento infraestructuras tecnológicas seguras y escalables. Como Analista de Seguridad certificado por Google, me enfoco en proteger tus activos digitales, gestionar vulnerabilidades y asegurar la integridad de tu información.",
+      "skills_and_technologies": [ "Ciberseguridad", "Arquitectura en la Nube", "Análisis de Vulnerabilidades", "Gestión de Riesgos" ]
+    }
   ],
-  "professional_achievements": [
-    "PDM Pasto (2024-2027)",
-    "PDM Guachucal (2024-2027)",
-    "PDM Tangua (2024-2027)"
-  ],
+  "skills": {
+    "soft": [ "Liderazgo", "Trabajo en equipo", "Orientado a soluciones", "Proactividad", "Visión estratégica", "Desarrollo sostenible", "Adaptabilidad", "Comunicación efectiva" ],
+    "technical": [ "Python", "Inteligencia Artificial", "React", "Node.js", "SQL", "PostgreSQL", "MongoDB", "Power BI", "Ciberseguridad", "Blockchain", "Docker", "Linux", "AWS", "Google Cloud", "MGA", "Planes de Desarrollo" ]
+  },
   "experience": [
     {
-      "position": "Mentor de bootcamps (IA, Analisis de datos, full stack, ciberseguridad, blockchain, Arquitectura en la nube) proyecto Talento TECH Región 1, 2 y 3",
-      "company": "Cymetria Group S.A.S/ Universidad de Antioquia / Universidad de Tecnológica de Pereira",
+      "position": "Mentor de bootcamps (IA, Análisis de Datos, Full Stack, etc.)",
+      "company": "Talento TECH - Regiones 1, 2 y 3",
       "dates": "Junio 2024 - Septiembre 2025",
       "responsibilities": [
-        "Impartir clases sincrónicas de al menos 8 horas semanales, gestionar contenidos educativos y promover propuestas innovadoras.",
-        "Asegurar la implementación y evaluación de talleres y proyectos, generar reportes diarios, y Ofrecer formación personalizada según sea necesario, cumpliendo con los objetivos del proyecto."
+        "Diseñar e impartir más de 200 horas de contenido sobre desarrollo web, ciencia de datos e IA a +100 estudiantes.",
+        "Crear y evaluar proyectos prácticos y hackathones para solidificar el aprendizaje y fomentar el trabajo en equipo.",
+        "Brindar mentoría personalizada, resolviendo dudas técnicas y guiando el desarrollo profesional de los participantes.",
+        "Generar informes de seguimiento sobre el progreso de los estudiantes y el cumplimiento de los objetivos del bootcamp."
       ]
     },
     {
@@ -50,16 +84,21 @@
       "company": "Agencia de Desarrollo Local - ADEL",
       "dates": "Febrero 2024 - Julio 2024",
       "responsibilities": [
-        "Coordinar y asesorar actividades de formulación del plan, controlar procesos y manejar información, establecer relaciones con instancias relevantes, completar documentos necesarios, facilitar discusiones técnicas, gestionar con las partes involucradas, documentar procesos de campo, presentar informes mensuales y cumplir con cualquier otra actividad requerida para la ejecución del contrato."
+        "Coordinar y liderar las mesas de trabajo técnicas para la formulación del plan, integrando la participación ciudadana con los requerimientos institucionales.",
+        "Gestionar y sistematizar la información estratégica del municipio, utilizando la Metodología General Ajustada (MGA) para la estructuración de proyectos.",
+        "Actuar como enlace principal entre las secretarías municipales, entidades externas y la comunidad para garantizar la cohesión y el avance del plan.",
+        "Elaborar y presentar informes de avance mensuales a la alta dirección, detallando hitos, riesgos y resultados."
       ]
     },
     {
-      "position": "Director técnico proceso electoral PRECONTEO en Nariño",
-      "company": "Thomas Processing & System",
+      "position": "Director Técnico Proceso Electoral PRECONTEO",
+      "company": "Thomas Processing & System - Nariño",
       "dates": "Agosto 2023 - Noviembre 2023",
       "responsibilities": [
-        "Dirigir y supervisar actividades para garantizar la integridad, transparencia y eficiencia del proceso electoral.",
-        "Estableciendo grupos de trabajo eficientes Coordinando equipos, estableciendo protocolos de seguridad, asegurando la precisión de los datos y colaborando con autoridades y partes interesadas."
+        "Diseñar y ejecutar el plan técnico operativo para el centro de procesamiento de datos, garantizando una disponibilidad del 100% durante la jornada electoral.",
+        "Liderar y capacitar al equipo de ingenieros y técnicos responsables de la infraestructura de red, software y hardware.",
+        "Implementar y auditar los protocolos de ciberseguridad para proteger la integridad y la transparencia de la transmisión de datos electorales.",
+        "Coordinar con las autoridades electorales (Registraduría) y misiones de observación para validar la correcta ejecución de los procedimientos técnicos."
       ]
     },
     {
@@ -67,26 +106,32 @@
       "company": "Dozurcol Pasto",
       "dates": "Agosto 2019 - Diciembre 2022",
       "responsibilities": [
-        "Realizar el desarrollo integral full-stack de aplicaciones web, desde la interfaz de usuario (front-end) hasta la lógica del servidor y bases de datos (back-end), participando en su ciclo de vida completo para entregar soluciones tecnológicas eficientes y de alta calidad.",
-        "Colaboró activamente con equipos multidisciplinarios para definir requerimientos."
+        "Desarrollar y mantener aplicaciones web completas, gestionando el ciclo de vida desde el front-end (React) hasta el back-end (Node.js, Python).",
+        "Diseñar, modelar y administrar bases de datos relacionales (PostgreSQL) y NoSQL (MongoDB), enfocándose en la optimización y seguridad.",
+        "Construir y documentar APIs RESTful robustas para la integración de servicios y la comunicación entre el cliente y el servidor.",
+        "Implementar prácticas de CI/CD y control de versiones con Git para asegurar la calidad y la agilidad en el despliegue de software."
       ]
     },
     {
-      "position": "Docente",
+      "position": "Docente Técnico",
       "company": "INSTITUTO TÉCNICO SISTEMATIZADO DE NARIÑO",
       "dates": "Enero 2021 - Diciembre 2022",
       "responsibilities": [
-        "Impartir clases y actividades académicas, diseñar y actualizar contenidos del curso, evaluar el rendimiento de los estudiantes y ofrecer retroalimentación.",
-        "Coordinar con el personal académico y administrativo para garantizar la calidad educativa y apoyar el desarrollo de los estudiantes."
+          "Impartir formación técnica en programas de Inteligencia Artificial, Análisis de Datos, Blockchain, y Programación.",
+          "Diseñar y actualizar el material de estudio, incluyendo presentaciones, talleres prácticos y proyectos finales.",
+          "Evaluar el rendimiento de los estudiantes a través de métodos prácticos y teóricos, ofreciendo retroalimentación constructiva.",
+          "Colaborar en la mejora continua de los planes de estudio para alinearlos con las demandas del sector tecnológico."
       ]
     },
     {
-      "position": "Analista de la seguridad de la información",
+      "position": "Analista de Seguridad de la Información",
       "company": "Comercializadora Dozurcol",
       "dates": "Julio 2016 - Julio 2019",
       "responsibilities": [
-        "Supervisar registros de seguridad, identificar amenazas y vulnerabilidades, proponer medidas de mitigación, coordinar respuestas a incidentes, implementar soluciones de seguridad y elaborar material educativo sobre mejores prácticas.",
-        "Asegurar la protección continua de sistemas y redes mediante la evaluación y ajuste de estrategias de seguridad."
+          "Monitorear y analizar los registros de seguridad de la red para identificar, investigar y documentar posibles amenazas y vulnerabilidades.",
+          "Diseñar y proponer medidas de mitigación y planes de respuesta a incidentes para minimizar el impacto de brechas de seguridad.",
+          "Implementar y gestionar soluciones de seguridad, incluyendo firewalls, sistemas de detección de intrusos y políticas de control de acceso.",
+          "Desarrollar y impartir material educativo y capacitaciones para el personal sobre mejores prácticas de ciberseguridad."
       ]
     }
   ],
@@ -102,19 +147,14 @@
       "dates": "2025"
     },
     {
-      "degree": "Microsoft Power BI Data Analyst (Certificado profesional)",
-      "institution": "Microsoft",
-      "dates": "2025"
-    },
-    {
-      "degree": "Google IT Support (Certificado profesional)",
-      "institution": "Google",
-      "dates": "2025"
-    },
-    {
       "degree": "Magister en Administración",
       "institution": "Universidad Mariana Sede Pasto",
       "dates": "2021-2023"
+    },
+    {
+      "degree": "Microsoft Power BI Data Analyst (Certificado profesional)",
+      "institution": "Microsoft",
+      "dates": "2025"
     },
     {
       "degree": "Especialista en Alta Gerencia",
@@ -122,61 +162,19 @@
       "dates": "2018-2019"
     },
     {
-      "degree": "Notación para el modelado de procesos de negocio",
-      "institution": "Universidad Rey Juan Carlos Sede Madrid, España",
-      "dates": "2016-2016"
+      "degree": "Microsoft Front-End Developer (Certificado profesional)",
+      "institution": "Microsoft",
+      "dates": "2025"
     },
     {
-      "degree": "Programa internacional de modelamiento BPM",
-      "institution": "Universidad Sergio Arboleda Sede Bogotá",
-      "dates": "2016-2016"
-    },
-    {
-      "degree": "Ingeniero de sistemas y telecomunicaciones",
-      "institution": "Universidad Sergio Arboleda Sede Bogotá",
+      "degree": "Ingenieria de sistemas y telecomunicaciones",
+      "institution": "Universidad Sergio Arboleda Sede Bogota",
       "dates": "2012-2017"
-    }
-  ],
-  "academic_distinctions": [
-    "Mención de honor en Maestría en administración (2023)",
-    "Certificado de alto rendimiento en Especialización de Alta Gerencia (2021)"
-  ],
-  "diplomado": "Programa internacional de modelamiento BPM (Colombia - España)",
-  "academic_achievements": [
-    "Libro: La innovacion, el emprendimiento y la competitividad (2021)",
-    "Ponencia: El déficit económico que presentan las MiPymes por Covid-19 en Colombia (2020)"
-  ],
-  "courses": [
-    "Put It to Work: Prepare for Cybersecurity Jobs (2025)",
-    "Automate Cybersecurity Tasks with Python (2025)",
-    "Sound the Alarm: Detection and Response (2025)",
-    "Assets, Threats, and Vulnerabilities (2025)",
-    "Tools of the Trade: Linux and SQL (2025)",
-    "Connect and Protect: Networks and Network Security (2025)",
-    "Play It Safe: Manage Security Risks (2025)",
-    "Foundations of Cybersecurity (2025)",
-    "Microsoft Exam PL-300 Preparation and Practice (2025)",
-    "Deploy and Maintain Power BI Assets and Capstone project (2025)",
-    "Creative Designing in Power BI (2025)",
-    "Data Analysis and Visualization with Power BI (2025)",
-    "Data Modeling in Power BI (2025)",
-    "Extract, Transform and Load Data in Power BI (2025)",
-    "IT Security: Defense against the digital dark arts (2025)",
-    "System Administration and IT Infrastructure Services (2025)",
-    "Operating Systems and You: Becoming a Power User (2025)",
-    "The Bits and Bytes of Computer Networking (2025)",
-    "Technical Support Fundamentals (2025)"
-  ],
-  "professional_references": [
-    {
-      "name": "Sandra Milena Gómez",
-      "title": "Analista de prestaciones",
-      "phone": "+57 311 310 7384"
     },
     {
-      "name": "Luis Fernando Zambrano",
-      "title": "Arquitecto",
-      "phone": "+57 300 103 6956"
+      "degree": "SAP Technology Consultant (Certificado profesional)",
+      "institution": "SAP",
+      "dates": "2025"
     }
   ]
 }

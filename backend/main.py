@@ -37,7 +37,7 @@ for edu in knowledge_base.get('education', []):
     doc = f"Formación académica: {edu.get('degree', '')} en {edu.get('institution', '')}."
     corpus.append(doc)
 
-corpus.append(f"Resumen profesional: {knowledge_base.get('professional_profile', '')}")
+corpus.append(f"Resumen profesional: {knowledge_base.get('summaries', {}).get('professional_profile', '')}")
 
 vectorizer = TfidfVectorizer()
 tfidf_matrix = vectorizer.fit_transform(corpus)
@@ -75,7 +75,10 @@ def read_root():
 # Endpoints para servir datos al Frontend
 @app.get("/profile")
 def get_profile():
-    return {"personal_info": knowledge_base.get("personal_info", {}), "professionalProfile": knowledge_base.get("professional_profile", "")}
+    return {
+        "personal_info": knowledge_base.get("personal_info", {}), 
+        "summaries": knowledge_base.get("summaries", {}) # Cambiamos professionalProfile por summaries
+    }
 
 @app.get("/experience")
 def get_experience():
@@ -97,6 +100,9 @@ def get_courses():
 def get_achievements():
     return {"academic_distinctions": knowledge_base.get("academic_distinctions", []), "professional_achievements": knowledge_base.get("professional_achievements", [])}
 
+@app.get("/services")
+def get_services():
+    return {"services": knowledge_base.get("services", [])}
 
 # Endpoint para el Chatbot General (Q&A rápido)
 @app.post("/ask")

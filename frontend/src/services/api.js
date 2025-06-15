@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Asegurándonos de que apunta a tu servidor local para el desarrollo
 const apiClient = axios.create({
-    baseURL: 'https://portafolio-api-8bfm.onrender.com', 
+    baseURL: 'http://127.0.0.1:8000', 
     headers: {
         'Content-Type': 'application/json'
     }
@@ -18,3 +18,4 @@ export const getAchievements = () => apiClient.get('/achievements');
 export const getCourses = () => apiClient.get('/courses');
 export const matchProject = (description) => apiClient.post('/match-project', { description });
 export const askChatbot = (text) => apiClient.post('/ask', { text });
+export const getServices = () => apiClient.get('/services');
